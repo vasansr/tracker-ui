@@ -19,7 +19,7 @@
     "#dev-all": "Dev mode: watch for server changes and start UI server",
     "dev-all": "rm dist/* && npm run watch-server-hmr & sleep 5 && npm start",
     "postinstall": "npm run compile",
-    "heroku-postbuild": "echo LINKING BOOTSTRAP ; ln -s ../node_modules/bootstrap/dist public/bootstrap"
+    "heroku-postbuild": "echo LINKING BOOTSTRAP ; ln -fs ../node_modules/bootstrap/dist public/bootstrap"
   },
   "repository": {
     "type": "git",
