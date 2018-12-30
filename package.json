@@ -1,6 +1,10 @@
 {
   "name": "pro-mern-stack-2-ui",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "description": "Pro MERN Stack (2nd Edition) - UI",
   "main": "index.js",
   "scripts": {
